@@ -76,10 +76,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#175A37"
             android:gravity="center"
             android:text="7"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/grey"
             android:textSize="60dp" />
 
         <TextView
@@ -87,10 +86,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#175A37"
             android:gravity="center"
             android:text="8"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/grey"
             android:textSize="60dp" />
 
         <TextView
@@ -98,10 +96,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#175A37"
             android:gravity="center"
             android:text="9"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/grey"
             android:textSize="60dp" />
 
         <TextView
@@ -127,10 +124,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#175A37"
             android:gravity="center"
             android:text="4"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/grey"
             android:textSize="60dp" />
 
         <TextView
@@ -138,10 +134,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#175A37"
             android:gravity="center"
             android:text="5"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/grey"
             android:textSize="60dp" />
 
         <TextView
@@ -149,10 +144,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#175A37"
             android:gravity="center"
             android:text="6"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/grey"
             android:textSize="60dp" />
 
         <TextView
@@ -178,10 +172,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#175A37"
             android:gravity="center"
             android:text="1"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/grey"
             android:textSize="60dp" />
 
         <TextView
@@ -189,10 +182,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#175A37"
             android:gravity="center"
             android:text="2"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/grey"
             android:textSize="60dp" />
 
         <TextView
@@ -200,10 +192,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#175A37"
             android:gravity="center"
             android:text="3"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/grey"
             android:textSize="60dp" />
 
         <TextView
@@ -230,10 +221,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#175A37"
             android:gravity="center"
             android:text="+/-"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/grey"
             android:textSize="60dp" />
 
         <TextView
@@ -241,21 +231,19 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#175A37"
             android:gravity="center"
             android:text="0"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/grey"
             android:textSize="60dp" />
 
         <TextView
             android:id="@+id/point"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#175A37"
+            android:layout_weight="1"   
             android:gravity="center"
             android:text="."
-            android:textColor="#FFFFFF"
+            android:textColor="@color/grey"
             android:textSize="60dp" />
 
         <TextView
