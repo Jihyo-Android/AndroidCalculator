@@ -297,7 +297,7 @@
             android:textSize="60dp" />
 
         <TextView
-            android:id="@+id/point"
+            android:id="@+id/dot"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
