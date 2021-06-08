@@ -10,8 +10,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // new -> old (new + old)
-        var new = "0"
-        var old = "0"
+        var new = ""
+        var old = ""
 
         one.setOnClickListener {
             new = new + "1"
