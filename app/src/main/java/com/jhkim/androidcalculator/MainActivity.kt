@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
         var new = ""
         var old = ""
 
+        // numpad Input
         one.setOnClickListener {
             new = new + "1"
             result.setText(new)
@@ -60,27 +61,28 @@ class MainActivity : AppCompatActivity() {
 
         // Operations
         clear.setOnClickListener {
-            new = "0"
-            old = "0"
-            result.setText("0")
+            new = ""
+            old = ""
+            result.setText("")
+        }
+
+        equals.setOnClickListener {
+            result.setText(new)
         }
 
         plus.setOnClickListener {
             old = (old.toInt() + new.toInt()).toString()
             new = "0"
-            result.setText(old)
         }
 
         minus.setOnClickListener {
             old = (old.toInt() - new.toInt()).toString()
             new = "0"
-            result.setText(old)
         }
 
         multiply.setOnClickListener {
             old = (old.toInt() * new.toInt()).toString()
             new = "0"
-            result.setText(old)
         }
 
         // improvement required
